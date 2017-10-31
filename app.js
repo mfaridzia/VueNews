@@ -8,7 +8,7 @@ function buildUrl(url) {
 	return NYTBaseUrl + url + ".json?api-key=" + ApiKey;
 }
 
-// This is vue component
+// This is vue.js component
 Vue.component('news-list', {
 	props: ['results'],
 	template: `
